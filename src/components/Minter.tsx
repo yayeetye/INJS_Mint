@@ -160,12 +160,12 @@ const Minter: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <h1>injs疯狂铸造脚本</h1>
+      <h1>sukishi generator</h1>
       <p className="text-xs mt-2 text-gray-400">打到账户没钱为止</p>
       <div>
         <textarea
           className="mt-6 border border-black rounded-xl w-[400px] px-4 py-6 resize-none h-[220px]"
-          placeholder="请输入助记词，比如：jazz bench loan chronic ready pelican travel charge lunar pear detect couch。当有多的账号的时候，用,分割，比如:jazz bench loan chronic ready pelican travel charge lunar pear detect couch,black clay figure average spoil insane hire typical surge still brown object"
+          placeholder="请输入助记词，比如：wei sheng and jon is gay travel charge lunar pear detect couch。当有多的账号的时候，用,分割，比如:jazz bench loan chronic ready pelican travel charge lunar pear detect couch,black clay figure average spoil insane hire typical surge still brown object"
           value={mnemonic}
           onChange={(e) => setMnemonic(e.target.value)}
         />
